@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>EditProductsFromCategory</name>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/">Open Software License (OSL)</license>
     <channel>community</channel>
@@ -13,8 +13,8 @@ One of the most requested features by our clients, we decided to make this modul
     <notes>Update for compatability with latest PHP 5.5.12</notes>
     <authors><author><name>2J Design Ltd</name><user>jamie_2jdesign</user><email>jamie@2jdesign.co.uk</email></author></authors>
     <date>2015-10-12</date>
-    <time>13:06:16</time>
-    <contents><target name="magecommunity"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash="5a87fbd3b3f360583f2d49f49f3963d6"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="6c5a3bcc7dd56b2b4a8ca3bd1706ad02"/><file name="config.xml.bak" hash="fa7dbef45ea476e505bab2970af7a55b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></target></contents>
+    <time>13:57:40</time>
+    <contents><target name="magecommunity"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash="5a87fbd3b3f360583f2d49f49f3963d6"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="6c5a3bcc7dd56b2b4a8ca3bd1706ad02"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash="0ff7f6fdc6105617a2f4e1390531ed87"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>4.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
