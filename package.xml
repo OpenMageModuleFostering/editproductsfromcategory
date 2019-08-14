@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>EditProductsFromCategory</name>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
@@ -11,8 +11,8 @@
     <notes>Update for compatability with latest PHP 5.5.12</notes>
     <authors><author><name>2J Design Ltd</name><user>jamie_2jdesign</user><email>jamie@2jdesign.co.uk</email></author></authors>
     <date>2015-10-07</date>
-    <time>06:44:16</time>
-    <contents><target name="magelocal"><dir name="."><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir><dir><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="etc"><file name="config.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="."><dir name="app"><dir name="etc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></dir></dir></dir></target></contents>
+    <time>08:02:13</time>
+    <contents><target name="magelocal"><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash=""/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="app"><dir name="etc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>4.0.0</min><max>5.5.12</max></php></required></dependencies>
 </package>
