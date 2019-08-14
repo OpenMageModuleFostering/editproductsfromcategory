@@ -3,10 +3,10 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Add the ability to link direct to a product to edit from the category products tab",
+    "description": "Updated module, please do not use previous version.",
     "authors": [
     {
-        "name": "Jamie Jackson",
+        "name": "2J Design Ltd",
         "email": "jamie@2jdesign.co.uk"
     }
 ],
