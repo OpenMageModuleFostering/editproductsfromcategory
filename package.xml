@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>EditProductsFromCategory</name>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <stability>stable</stability>
-    <license>Open Software License (OSL)</license>
+    <license uri="http://opensource.org/">Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>Updated module, please do not use previous version.</summary>
-    <description>Updated module, please do not use previous versions due to error on install.</description>
+    <summary>Add the useful feature of a link on your category products tab under manage categories and save hours of time! </summary>
+    <description>This simple but effective module adds the manage product edit link directly onto the manage category page, from the category you can see all the products currently assigned however currently there is no way in Magento to quickly jump to the product from this screen to edit.&#xD;
+Now you can save time by adding a direct link to the manage product page, saving time by not having to navigate through to manage products and searching for the product to edit.&#xD;
+One of the most requested features by our clients, we decided to make this module available. We guarantee this simple addition will save you lots of time.</description>
     <notes>Update for compatability with latest PHP 5.5.12</notes>
     <authors><author><name>2J Design Ltd</name><user>jamie_2jdesign</user><email>jamie@2jdesign.co.uk</email></author></authors>
-    <date>2015-10-07</date>
-    <time>08:02:13</time>
-    <contents><target name="magelocal"><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash=""/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="app"><dir name="etc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></dir></dir></target></contents>
+    <date>2015-10-12</date>
+    <time>13:06:16</time>
+    <contents><target name="magecommunity"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash="5a87fbd3b3f360583f2d49f49f3963d6"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="6c5a3bcc7dd56b2b4a8ca3bd1706ad02"/><file name="config.xml.bak" hash="fa7dbef45ea476e505bab2970af7a55b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>4.0.0</min><max>5.5.12</max></php></required></dependencies>
+    <dependencies><required><php><min>4.0.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
