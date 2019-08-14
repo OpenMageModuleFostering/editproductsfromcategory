@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>EditProductsFromCategory</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
     <summary>Updated module, please do not use previous version.</summary>
     <description>Updated module, please do not use previous versions due to error on install.</description>
-    <notes>Updated install errors</notes>
+    <notes>Update for compatability with latest PHP 5.5.12</notes>
     <authors><author><name>2J Design Ltd</name><user>jamie_2jdesign</user><email>jamie@2jdesign.co.uk</email></author></authors>
-    <date>2013-06-05</date>
-    <time>22:41:34</time>
-    <contents><target name="magelocal"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash="5a87fbd3b3f360583f2d49f49f3963d6"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="e7eabc823f887eacd90b38669c4f40b2"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash="0ff7f6fdc6105617a2f4e1390531ed87"/></dir></target></contents>
+    <date>2015-10-07</date>
+    <time>06:44:16</time>
+    <contents><target name="magelocal"><dir name="."><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir></dir><dir><dir name="app"><dir name="code"><dir name="local"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="etc"><file name="config.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="."><dir name="app"><dir name="etc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash=""/></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>4.0.0</min><max>5.4.14</max></php></required></dependencies>
+    <dependencies><required><php><min>4.0.0</min><max>5.5.12</max></php></required></dependencies>
 </package>
