@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/EditProductsFromCategory",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Add the useful feature of a link on your category products tab under manage categories and save hours of time! ",
+    "authors": [
+    {
+        "name": "Jamie Jackson",
+        "email": "jamie@2jdesign.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

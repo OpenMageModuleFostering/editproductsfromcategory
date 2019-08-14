@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>EditProductsFromCategory</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add the useful feature of a link on your category products tab under manage categories and save hours of time! </summary>
+    <description>This simple but effective module adds the manage product edit link directly onto the manage category page, from the category you can see all the products currently assigned however currently there is no way in Magento to quickly jump to the product from this screen to edit.&#xD;
+&#xD;
+Now you can save time by adding a direct link to the manage product page, saving time by not having to navigate through to manage products and searching for the product to edit.&#xD;
+&#xD;
+One of the most requested features by our clients, we decided to make this module available. We guarantee this simple addition will save you lots of time.</description>
+    <notes>Stable Release</notes>
+    <authors><author><name>Jamie Jackson</name><user>jamie_2jdesign</user><email>jamie@2jdesign.co.uk</email></author></authors>
+    <date>2013-05-29</date>
+    <time>19:24:33</time>
+    <contents><target name="magelocal"><dir name="JjDesign"><dir name="EditProductsFromCategory"><dir name="Adminhtml"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Category"><dir name="Tab"><file name="Product.php" hash="8e6d46401d0f6844b39e32a0fa18b184"/></dir><file name=".DS_Store" hash="7c488240fcda2320b010b86682b866ae"/></dir><file name=".DS_Store" hash="691daaf0e511c129af60f1fc872f9798"/></dir><file name=".DS_Store" hash="a145e02f202786bd7c1b28ff860c65f6"/></dir><file name=".DS_Store" hash="b9d0cf0d93c3c64bb8d54b3b2c78b590"/></dir><dir name="etc"><file name="config.xml" hash="ab7191dc31f272f78677d71dfac69e36"/></dir><file name=".DS_Store" hash="3c69abff1947582b81433d63beae2df2"/></dir><file name=".DS_Store" hash="b9d0cf0d93c3c64bb8d54b3b2c78b590"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JjDesign_EditProductsFromCategory_Adminhtml.xml" hash="0ff7f6fdc6105617a2f4e1390531ed87"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.0.0</min><max>5.4.14</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.3</min><max>1.8</max></package></required></dependencies>
+</package>
